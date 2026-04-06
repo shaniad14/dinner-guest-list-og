@@ -67,7 +67,7 @@ def main():
         elif choice == "0":
             break
         else:
-            print("Invalid option")
+            print("Invalid option.Try again.")
 
 
 main()
