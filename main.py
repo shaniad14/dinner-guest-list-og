@@ -56,5 +56,10 @@ def main():
 
         if choice == "1":
             add_guest()
+        elif choice == "2":
+            remove_guest()
+        elif choice == "3":
+            sort_guests()
+        elif choice == "4":
 
 
