@@ -61,5 +61,10 @@ def main():
         elif choice == "3":
             sort_guests()
         elif choice == "4":
+         show_count()
+        elif choice == "5":
+            show_invitations()
+        elif choice == "0":
+            break
 
 
