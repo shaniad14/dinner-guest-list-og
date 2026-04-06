@@ -49,3 +49,12 @@ def main():
         print("2 Remove")
         print("3 Sort")
         print("4 Count")
+        print("5 Invitations")
+        print("0 Exit")
+
+        choice = input("Choice: ")
+
+        if choice == "1":
+            add_guest()
+
+
