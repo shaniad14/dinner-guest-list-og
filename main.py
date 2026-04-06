@@ -43,3 +43,9 @@ def show_invitations():
     for guest in guests:
         print(f"Dear {guest}, you are invited!")
 
+def main():
+    while True:
+        print("\n1 Add")
+        print("2 Remove")
+        print("3 Sort")
+        print("4 Count")
