@@ -1,4 +1,4 @@
-# Reception Guest Manager (Simplified)
+# Reception Guest Manager
 
 guests = []
 
