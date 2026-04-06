@@ -66,5 +66,10 @@ def main():
             show_invitations()
         elif choice == "0":
             break
+        else:
+            print("Invalid option")
+
+
+main()
 
 
