@@ -31,3 +31,15 @@ def sort_guests():
     guests.sort()
     print("Guests sorted.")
 
+def show_count():
+    print("Total guests:", len(guests))
+
+
+def show_invitations():
+    if not guests:
+        print("No guests.")
+        return
+
+    for guest in guests:
+        print(f"Dear {guest}, you are invited!")
+
