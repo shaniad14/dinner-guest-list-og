@@ -10,6 +10,7 @@ def get_name():
             return name
         print("Name cannot be empty.")
 
+
 def add_guest():
     name = get_name()
     if name in guests:
@@ -17,6 +18,7 @@ def add_guest():
     else:
         guests.append(name)
         print(name, "added.")
+
 
 def remove_guest():
     name = get_name()
@@ -31,6 +33,7 @@ def sort_guests():
     guests.sort()
     print("Guests sorted.")
 
+
 def show_count():
     print("Total guests:", len(guests))
 
@@ -42,6 +45,7 @@ def show_invitations():
 
     for guest in guests:
         print(f"Dear {guest}, you are invited!")
+
 
 def main():
     while True:
@@ -61,7 +65,7 @@ def main():
         elif choice == "3":
             sort_guests()
         elif choice == "4":
-         show_count()
+            show_count()
         elif choice == "5":
             show_invitations()
         elif choice == "0":
@@ -71,5 +75,3 @@ def main():
 
 
 main()
-
-
